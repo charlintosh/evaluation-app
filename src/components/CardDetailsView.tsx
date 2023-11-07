@@ -37,7 +37,7 @@ const CardDetailsView: React.FC<CardDetailsViewProps> = ({
   return (
     <LoadingBoundary
       isLoading={isLoading}
-      className="flex h-3/4 w-[70%] flex-col overflow-auto bg-white p-10 shadow-card"
+      className="flex w-[70%] flex-col overflow-auto bg-white p-10 shadow-card"
     >
       {cardItem ? (
         <Fragment>
