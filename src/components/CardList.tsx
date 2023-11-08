@@ -17,7 +17,7 @@ const CardList: React.FC<CardListProps> = ({
   isLoading,
 }) => {
   return (
-    <section className="flex h-2/4 flex-col items-center overflow-auto bg-white p-5 shadow-card">
+    <section className="flex max-h-screen flex-col items-center overflow-auto bg-white p-5 shadow-card">
       {isLoading ? (
         <Loader />
       ) : (
